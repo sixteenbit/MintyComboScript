@@ -43,8 +43,8 @@ def grabPin(file, directory):
     return int(pin)
 
 
-pinFile = "/boot/mintypi/pinfile.txt"
-pinDirectory = "/boot/mintypi/"
+pinFile = "/boot/sixteenbit/pinfile.txt"
+pinDirectory = "/boot/sixteenbit/"
 pngviewPath = "/home/pi/MintyComboScript/Pngview/"
 iconPath = "/home/pi/MintyComboScript/icons"
 statePath = "/home/pi/MintyComboScript/combo.dat"
