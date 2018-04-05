@@ -27,11 +27,11 @@ http://www.sudomod.com/forum/index.php
 Go to raspberry command prompt or SSH.
 Make sure you are in the home directory by typing ```cd ~ ``` and then type:
 ```
-wget https://raw.githubusercontent.com/HoolyHoo/MintyComboScript/master/MintyInstall.sh
+wget https://raw.githubusercontent.com/sixteenbit/MintyComboScript/master/MintyInstall.sh
 ```
 Then type:
 ```
-sudo git clone https://github.com/HoolyHoo/MintyComboScript.git
+sudo git clone https://github.com/sixteenbit/MintyComboScript.git
 ```
 Then type:
 ```
