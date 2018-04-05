@@ -34,12 +34,12 @@ def grabPin(file, directory):
         if not os.path.isdir(directory):
             os.makedirs(directory)
             with open(file, 'w') as f:
-                f.write('7')
-            pin = '7'
+                f.write('14')
+            pin = '14'
         else:
             with open(file, 'w') as f:
-                f.write('7')
-            pin = '7'
+                f.write('14')
+            pin = '14'
     return int(pin)
 
 
