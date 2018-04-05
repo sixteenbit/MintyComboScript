@@ -34,7 +34,7 @@ VOLT75 = 3.68   # 3.76
 VOLT50 = 3.46   # 3.63
 VOLT25 = 3.35    # 3.5
 VOLT0 = 3.25     # 3.2
-adc = Adafruit_ADS1x15.ADS1015()
+adc = Adafruit_ADS1x15.ADS1115()
 GAIN = 1
 
 
@@ -70,7 +70,7 @@ def readVoltage():
 
 
 def convertVoltage(sensorValue):
-    voltage = float(sensorValue) * (4.09 / 2047.0)
+    voltage = float(sensorValue) * (4.09 / 32767.0)
     return voltage
 
 
